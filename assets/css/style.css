@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  padding: 18px;
+  background: url('../image/02140_800x480.jpg') center/cover no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.network img{
+  border: 2px solid rgb(209, 205, 205);
+  padding: 6px;
+  border-radius: 100%;
+}
+h1{
+  color: rgba(26, 211, 214, 0.972);
+}
+
+.f2{
+
+  padding-left: 90px;
+}
+
+.lastBtnContainer{
+  margin: 10px auto;
+}
+
+.buttonComon{
+  height: 40px;
+  width: 165px;
+  padding: 2px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btnSignUp{
+  background-color: rgba(26, 211, 214, 0.972);
+  animation: bounce 2s;
+}
+
+.btnSignIn{
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  animation: bounce 3s;
+}
+
+.main{
+  /* animation: zoomIn 2s; */
+}
+h1{
+  animation:bounce 2s ;
+}
+
+/* input{
+  animation: zoomIn 3s;
+} */
+
+.barre{
+  height: 3px;
+  background-color: black;
+  border-radius: 10px;
+  visibility: hidden;
+  width: 0px;
+}
+/* input:invalid{
+  border:1px solid red;
+  animation: shakeX 1s;
+}
+
+
+input:valid{
+  border:1px solid rgb(26, 200, 26);
+  animation: fadeIn 0.5s;
+  
+} */

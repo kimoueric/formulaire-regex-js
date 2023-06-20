@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css">
+  </head>
+  <body class=" ">
+    <div class="container text-center h-100 main" >
+      <div class="row h-100 lerow"  >
+        <div class="col-3 d-flex align-items-center justify-content-center  " style="width: 33% ; background-color: rgba(255, 255, 255, 0.245);  border-bottom-left-radius: 18px;border-top-left-radius: 18px" >
+          <div>
+            <div class="nav"></div>
+            <div class="container  ">
+              <form >
+                <h1 class="text-white">Welcome Back!</h1>
+                <div class="form-text mb-5 mt-5 text-white">
+                  To keep connected with us please login width your personal
+                  info
+                </div>
+                <div>
+                  <button class="buttonComon btnSignIn">SIGN IN</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col py-5 f2Col " style="border-bottom-right-radius: 18px ;background-color: rgb(245, 245, 245); border-top-right-radius: 18px">
+          <div>
+            <h1 class="text-secondary ">Create Account</h1>
+          </div>
+          <div class=" container d-flex justify-content-center mt-3 mb-3 network">
+            <img src="./assets/image/facebook.png" alt="" width="30px" class="m-2">
+            <img src="./assets/image/google-plus.png" alt=""  width="30px" class="m-2">
+            <img src="./assets/image/linkedin.png" alt=""  width="30px" class="m-2">
+          </div>
+          <div class="form-text">or use your email for registration</div>
+          <form class="d-flex align-items-center flex-column justify-content-center f2">
+            <div class="input-group m-3">
+              <span class="input-group-text">
+                <img src="./assets/image/utilisateur.png" alt="" width="30px">
+              </span>
+              <div class="form-floating w-75 ">
+                <input
+                  type="text"
+                  class="form-control "
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  required
+                  pattern=""
+                />
+                <label for="name"> Name</label>
+                <div class="verificationName barre">
+
+                </div>
+              
+              </div>
+            </div>
+            <div class="input-group m-3">
+              <span class="input-group-text"> 
+                <img src="./assets/image/email.png" alt="" width="30px">
+              </span>
+              <div class="form-floating w-75">
+                <input
+                  type="text"
+                  class="form-control "
+                  name="email"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+                <label for="email"> Email</label>
+                <div class="verificationEmail barre">
+                  
+                </div>
+             
+              </div>
+            </div>
+            <div class="input-group m-3">
+              <span class="input-group-text"> 
+                <img src="./assets/image/cadenas.png" alt="" width="30px">
+              </span>
+              <div class="form-floating w-75 ">
+                <input
+                  type="text"
+                  class="form-control "
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+                <label for="password"> Password</label>
+                <div class="verificationPassword barre">
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="container  lastBtnContainer w-50 d-flex flex-start  ">
+              <button class="buttonComon btnSignUp bg-secondary">SIGN UP</button>
+            </div>
+         
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</html>
